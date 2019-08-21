@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BaseAndroidITVDN_2</string>
+    <string name="confirm_text">Confirm</string>
+    <string name="your_age_text">your_age</string>
+    <string name="your_name_text">your name</string>
+    <string name="back_text">Back</string>
+</resources>
