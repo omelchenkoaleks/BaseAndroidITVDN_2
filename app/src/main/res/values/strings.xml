@@ -4,4 +4,7 @@
     <string name="your_age_text">your_age</string>
     <string name="your_name_text">your name</string>
     <string name="back_text">Back</string>
+    <string name="second_activity_text">Second Activity</string>
+    <string name="contacts_text">Contacts</string>
+    <string name="first_activtty_text">First Activtty</string>
 </resources>

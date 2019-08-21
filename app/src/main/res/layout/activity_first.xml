@@ -3,26 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="16dp"
-    tools:context=".sample_1.HelloActivity">
-
-    <TextView
-        android:id="@+id/result_text_view"
-        android:layout_width="0dp"
-        android:layout_height="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/back_button"
+        android:id="@+id/to_second_activity_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/back_text"
+        android:layout_marginTop="32dp"
+        android:text="@string/second_activity_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/result_text_view"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="goToNextActivity"/>
+
+    <Button
+        android:id="@+id/to_contacts_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/contacts_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/to_second_activity_button"
         android:onClick="goToNextActivity"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

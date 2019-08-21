@@ -1,4 +1,4 @@
-package com.omelchenkoaleks.baseandroiditvdn_2;
+package com.omelchenkoaleks.baseandroiditvdn_2.sample_1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+
+import com.omelchenkoaleks.baseandroiditvdn_2.R;
 
 public class CheckNameActivity extends AppCompatActivity {
     private EditText mNameEditText;
