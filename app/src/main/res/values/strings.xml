@@ -6,7 +6,16 @@
     <string name="back_text">Back</string>
     <string name="second_activity_text">Second Activity</string>
     <string name="contacts_text">Contacts</string>
-    <string name="first_activtty_text">First Activtty</string>
+    <string name="first_activity_text">First Activtty</string>
     <string name="length_short_text">length short</string>
     <string name="length_long_text">length long</string>
+    <string name="hint_your_login_edit_text">your login</string>
+    <string name="hint_your_password_edit_text">your password</string>
+    <string name="register_text_view">Register</string>
+    <string name="login_button">Login</string>
+    <string name="press_name_text_view">Press name:</string>
+    <string name="register_text">Register</string>
+    <string name="login_text">Login</string>
+    <string name="empty_text" />
+    <string name="exit_text">Exit</string>
 </resources>
