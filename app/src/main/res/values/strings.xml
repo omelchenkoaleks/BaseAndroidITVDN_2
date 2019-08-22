@@ -24,4 +24,6 @@
     <string name="english_text">english</string>
     <string name="ukraine_text">ukraine</string>
     <string name="russian_text">russian</string>
+    <string name="confirm_your_name_message">Your name:</string>
+    <string name="confirm_your_language_message">Your language:</string>
 </resources>

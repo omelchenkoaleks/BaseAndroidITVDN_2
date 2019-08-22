@@ -3,6 +3,7 @@ package com.omelchenkoaleks.baseandroiditvdn_2.activity_return_result;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -40,13 +41,15 @@ public class UserActivity extends AppCompatActivity {
             switch (requestCode) {
                 case RequestCode.NAME:
                     // из data получаем данные
+                    assert data != null;
                     String name = data.getStringExtra("name");
                     // выводим из в TextView
-                    mNameTextView.setText("Your name: " + name);
+                    mNameTextView.setText(String.format("%s%s", getString(R.string.confirm_your_name_message), name));
                     break;
                 case RequestCode.LANGUAGE:
-                      String language = data.getStringExtra("language");
-                      mLanguageTextView.setText("Your language: " + language);
+                    assert data != null;
+                    String language = data.getStringExtra("language");
+                      mLanguageTextView.setText(String.format("%s%s", getString(R.string.confirm_your_language_message), language));
                       break;
             }
         } else {
