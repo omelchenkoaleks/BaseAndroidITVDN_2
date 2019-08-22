@@ -26,4 +26,5 @@
     <string name="russian_text">russian</string>
     <string name="confirm_your_name_message">Your name:</string>
     <string name="confirm_your_language_message">Your language:</string>
+    <string name="touch_me_text">Touch Me</string>
 </resources>
