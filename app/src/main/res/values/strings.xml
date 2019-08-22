@@ -18,4 +18,10 @@
     <string name="login_text">Login</string>
     <string name="empty_text" />
     <string name="exit_text">Exit</string>
+    <string name="write_language_text">Write Language</string>
+    <string name="write_name_text">Write Name</string>
+    <string name="press_name_text">Press Name</string>
+    <string name="english_text">english</string>
+    <string name="ukraine_text">ukraine</string>
+    <string name="russian_text">russian</string>
 </resources>
