@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dialog_phone_book.NumbersActivity">
+        <activity android:name=".notification.ToOnActivity"></activity>
+        <activity android:name=".notification.NotificationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -30,4 +30,6 @@
     <string name="show_dialog_text">Show Dialog</string>
     <string name="add_phone_text">add phone</string>
     <string name="press_number_text">Press Number</string>
+    <string name="notification_text">notification</string>
+    <string name="you_know_secret_text">You know secret!</string>
 </resources>
