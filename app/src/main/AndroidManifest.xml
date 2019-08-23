@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".notification.ToOnActivity"></activity>
-        <activity android:name=".notification.NotificationActivity">
+        <activity android:name=".notification_2.Notification_2_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
