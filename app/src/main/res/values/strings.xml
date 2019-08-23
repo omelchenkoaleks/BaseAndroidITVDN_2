@@ -28,4 +28,6 @@
     <string name="confirm_your_language_message">Your language:</string>
     <string name="touch_me_text">Touch Me</string>
     <string name="show_dialog_text">Show Dialog</string>
+    <string name="add_phone_text">add phone</string>
+    <string name="press_number_text">Press Number</string>
 </resources>
